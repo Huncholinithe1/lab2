@@ -306,7 +306,7 @@ class Program
             while ((line = reader.ReadLine()) != null)
             {
                 var parts = line.Split(',');
-                string type = parts[0];
+                string type = parts[0]; 
                 string name = parts[1];
                 string password = parts[2];
 
